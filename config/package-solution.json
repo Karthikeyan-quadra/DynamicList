@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dynamiclist-client-side-solution",
+    "id": "41ad5166-15a7-442a-9193-aedc36a94b6a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "dynamiclist description"
+      },
+      "longDescription": {
+        "default": "dynamiclist description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "dynamiclist Feature",
+        "description": "The feature that activates elements of the dynamiclist solution.",
+        "id": "28d16ce6-2f02-4a2c-80bc-84d8f5597dfc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dynamiclist.sppkg"
+  }
+}
